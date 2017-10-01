@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.whenlin.herome.Fragments.PickPowerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|fill_vertical"
+        android:background="@drawable/hero_bg_gradient"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="PICK A POWER"
+            android:textAlignment="center"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/turtle_power"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Turtle Power"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Lightning"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/superman_crest"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Flight"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/spiderweb"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Web Slinging"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/laser_vision"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Laser Vision"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/super_strength"
+            android:drawableRight="@color/hidden_blue_drawableright"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Super Strength"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13sp"
+            android:layout_weight="0.125"
+            android:backgroundTint="#FAC740"
+            android:text="SHOW BACKSTORY"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+    </LinearLayout>
+
+</FrameLayout>

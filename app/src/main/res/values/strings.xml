@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HeroMe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="superman"></string>
+    <string name="backstoryTitle">BACKSTORY</string>
+    <string name="primaryPowerTitle">Primary Power</string>
+    <string name="secondaryPowerTitle">Secondary Power</string>
+    <string name="startOverBtn">Start Over</string>
+    <string name="placeholderText"> </string>
+</resources>

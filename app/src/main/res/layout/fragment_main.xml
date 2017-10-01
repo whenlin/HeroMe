@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.whenlin.herome.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/hero_bg_gradient"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:paddingTop="15dp"
+            android:text="How did you get your powers?"
+            android:textAlignment="center"
+            android:textColor="#FAC740"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.56"
+            android:src="@drawable/heroes"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/accidentBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Came By Accident"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/geneticBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Genetic Mutation"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/bornBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Born with them"
+            android:textAllCaps="false"
+            android:textColor="#FAC740"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/chooseBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="#FAC740"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Choose Powers"
+            android:textColor="#10161D"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+    </LinearLayout>
+
+</FrameLayout>
